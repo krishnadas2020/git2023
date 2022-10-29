@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="practice.xml(failed)">
+    <classes>
+      <class name="test.C">
+        <methods>
+          <include name="bc"/>
+          <include name="ac"/>
+          <include name="at"/>
+          <include name="bm"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- test.C -->
+      <class name="test.B$A">
+        <methods>
+          <include name="bc"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="am"/>
+          <include name="bm"/>
+        </methods>
+      </class> <!-- test.B$A -->
+      <class name="test_Naveen.Googe_Test">
+        <methods>
+          <include name="googlelogoTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test_Naveen.Googe_Test -->
+      <class name="test.D">
+        <methods>
+          <include name="am"/>
+          <include name="bm"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="bs"/>
+          <include name="bc"/>
+        </methods>
+      </class> <!-- test.D -->
+      <class name="test_Naveen.TestNG_Basics">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeURL"/>
+          <include name="closeBrowser"/>
+          <include name="lonin"/>
+          <include name="logOut"/>
+          <include name="enterURL"/>
+          <include name="deleteAllCookies"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- test_Naveen.TestNG_Basics -->
+      <class name="test.A">
+        <methods>
+          <include name="at"/>
+          <include name="bc"/>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="as"/>
+          <include name="ac"/>
+        </methods>
+      </class> <!-- test.A -->
+    </classes>
+  </test> <!-- practice.xml(failed) -->
+</suite> <!-- Failed suite [Suite] -->

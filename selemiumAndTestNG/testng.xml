@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test  name="AB">
+    <classes>
+      <class name="test.A"/>
+       <class name="test.B"/>
+    </classes>
+  </test> 
+  
+    <test  name="CD">
+    <classes>
+      <class name="test.C"/>
+       <class name="test.D"/>
+       </classes>
+        </test> 
+        
+         <test  name="practice.xml">
+    <classes>
+      <class name="test_Naveen.Googe_Test"/>
+       <class name="test_Naveen.TestNG_Basics"/>
+    </classes>
+  </test> 
+  
+  
+  
+  
+</suite> 
